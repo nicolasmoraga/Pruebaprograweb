@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.card-group{
+	margin-bottom: 30px;
+	margin-top: 40px;
+	
+}
+
+.card{
+	margin-right: 60px;
+	margin-left: 60px;
+	
+}
+.card-header{
+	padding: 8px 16px;
+
+}
+.card-body a {
+	transition: background-color .5s;
+}
+
+ .card-group a:hover {
+	background-color: gold;
+  }
+
+
+
+  /* cambia el color de la seleccion de la barra */
+.navbar-nav a{
+	border-radius: 10px;
+	transition: background-color .5s;
+}
+
+.navbar-nav a:hover {
+	background-color: gold;
+  }
+
+/* margen futter*/
+.card-fluid
+{
+	margin-top: 5%;
+}
+
+.contacto{
+	color: blanchedalmond;
+}
+
+.aumento{
+	font-size: 200%;
+}
+
+.parrafo
+{
+	text-align: right;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

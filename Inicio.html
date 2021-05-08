@@ -1,0 +1,254 @@
+<!DOCTYPE html> <!--Declaración de formato de documento-->
+<html>
+<title>Grupo 0</title>
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styleinicio.css">
+</head>
+    <body>
+        <!---registro de inicio -->
+       
+        <div class="row ">
+            <div class="col-md-2">
+                <h3>Iniciar sesión</h3>
+            </div>
+
+            <div class="row col-md-6 offset-md-3">
+
+                <div class="col-md-2 ">
+                    <h5>Usuario</h5>
+                </div>
+                <div class="p-2" class=form-control>
+                    <input type="text" placeholder="Usuario">
+                </div> 
+
+                
+                <div class="col-md-2"> 
+                    <h5>Contraseña</h5>
+                </div>
+                <div class="p-2" class=form-control>
+                    <input type="text" placeholder="Contraseña">
+                </div>
+                
+               
+
+            </div>
+                <form class="d-flex justify-content-end">
+                   
+                    <button class="btn btn-outline-primary" type="button" data-mdb-ripple-color="dark">
+                        Buscar
+                    </button>
+                </form>
+        </div>
+
+        <!--barra de navegacion -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 0px; ">
+            <nav class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="imagenes/logo2.jpg" width="30" height="30" class="d-inline-block align-top" alt="Logo Empresa">
+                    Grupo Cero
+                </a>
+            
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto p-2">
+                            <a class="p-2" href="#">Inicio</a>
+                            <a class="p-2" href="#">Categorias</a>
+                            <a class="p-2" href="#">Nosotros</a>          
+                            <a class="p-2" href="#">Solicitud</a>
+                            <a class="p-2" href="#">Contacto</a>
+                        </ul>
+                    </div>
+                </div> 
+                <form class="d-flex justify-content-end">
+                    <input type="search" class="form-control" placeholder="Buscar por artista, pintura" aria-label="Search"/>
+                    <button class="btn btn-outline-primary" type="button" data-mdb-ripple-color="dark">
+                        Buscar
+                    </button>
+                </form>
+            </nav>
+        </nav>
+
+        
+
+
+        <!--carrusel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="imagenes/pelicanos.jpg" style="width: 100%;height: 474px;" alt="">
+                </div>
+                <div class="item">
+                    <img src="imagenes/Orfebreria.jpg" style="width: 100%;height: 474px " alt="">
+                </div>
+                <div class="item">
+                    <img src="imagenes/tejidos.png" style="width: 100%;height: 474px;" alt="">
+                </div>
+            </div>
+        
+        
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!--categorias-->
+        <div>
+            <nav class="container-fluid text-center ">
+                <h1 class="display-1">Categorias</h1>
+            </nav>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Pintura</h5>
+                    </div>
+                <img class="card-img-top" src="imagenes/2pintura.jpg"  >
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Escultura</h5>
+                </div>
+                <img class="card-img-top" src="imagenes/2escultura.jpeg" style="width: 350px;">
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Orfebreria</h5>
+                </div>
+                <img class="card-img-top" src="imagenes/2orfebreria.jpg" >
+            </div>
+            <br>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Tejidos</h5>
+                    </div>
+                    <img class="card-img-top" src="imagenes/2tejido.jpg"  >
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Cobre</h5>
+                    </div>
+                    <img class="card-img-top" src="imagenes/cobre.png">
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Otros</h5>
+                    </div>
+                    <img class="card-img-top" src="imagenes/mosaico.jpg" >
+                </div>
+            </div>
+        </div>
+
+         <!--quienes somos-->
+        <div>
+            <nav class="container-fluid text-center ">
+                <h1 class="display-1">¿Quiénes Somos?</h1>
+            </nav>
+            <br>
+            <nav class="parrafo">
+                <p>
+                    Somos una institución sin fines de lucro creada en 2017 por Actual Inmobiliaria.
+                    Nuestros principales objetivos son acercar el arte a las personas haciéndolo parte de la ciudad,
+                    y al mismo tiempo, impulsar el desarrollo de artistas visuales de Chile.
+                    
+                    Estamos convencidos de que el arte influye positivamente en la calidad de vida de las personas,
+                    por eso, nuestra visión es contribuir a la creación de una comunidad más feliz y
+                    comprometida con su entorno a través del contacto cotidiano con el arte.
+                </p>
+            </nav>
+        </div>
+            
+         <!--artistas-->
+        <div>
+            <nav class="container-fluid text-center ">
+                <h1 class="display-1">Artistas</h1>
+            </nav>
+
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Osvaldo Peña</h5>
+                    </div>
+                    <img class="card-img-top" src="imagenes/osvaldopeña.jfif"  >
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Eugenio Dittborn</h5>
+                    </div>
+                    <img class="card-img-top" src="imagenes/3pintor.jpg">
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Roser Bru</h5>
+                    </div>
+                    <img class="card-img-top" src="imagenes/roser.jpg">
+                </div>
+            </div>
+        </div>
+               
+        
+         <!--Footer-->
+        <div class="card-fluid text-center bg-dark">
+            <div class="card-header">
+                <h6>Contacto</h6>
+            </div>
+            <div class="card-body ">
+                <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Formas de pago</h5>
+                          <p class="card-text">Aqui iran los ICONOS</p>
+                          <p class="card-text">Info</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Datos del contacto</h5>
+                          <p class="card-text">Info@correocualquiera.cl</p>
+                          <p class="card-text">Numero de telefono</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-muted">
+                © Todos los derechos reservados | Nuestro primer proyecto como grupo | 2020 - 2021
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <!-- Compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- Minified JS library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Compiled and minified Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body> 
+</html>
+
